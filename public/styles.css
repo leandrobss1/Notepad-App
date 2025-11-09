@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #95D2B3;
+  background-color: #89d2db;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -53,4 +53,59 @@ footer p {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background: #e98192;
+  border: none;
+  border-radius: 1%;
+  padding: 0.1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #ffff;
+  border: none;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  outline: none;
+  font-family: Roboto, sans-serif;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  font-family: Roboto, sans-serif;
+
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: Roboto, sans-serif;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #89d2db;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
 }
